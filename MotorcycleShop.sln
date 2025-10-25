@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36511.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MotorcycleShop.UI", "MotorcycleShop.UI\MotorcycleShop.UI.csproj", "{B9CE9761-8C82-4CCB-A1C9-E802DAFD21BE}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C728BAB2-4B98-44AF-9FC2-2442B58E7C50} = {C728BAB2-4B98-44AF-9FC2-2442B58E7C50}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MotorcycleShop.Domain", "MotorcycleShop.Domain\MotorcycleShop.Domain.csproj", "{C728BAB2-4B98-44AF-9FC2-2442B58E7C50}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B9CE9761-8C82-4CCB-A1C9-E802DAFD21BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9CE9761-8C82-4CCB-A1C9-E802DAFD21BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9CE9761-8C82-4CCB-A1C9-E802DAFD21BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9CE9761-8C82-4CCB-A1C9-E802DAFD21BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C728BAB2-4B98-44AF-9FC2-2442B58E7C50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C728BAB2-4B98-44AF-9FC2-2442B58E7C50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C728BAB2-4B98-44AF-9FC2-2442B58E7C50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C728BAB2-4B98-44AF-9FC2-2442B58E7C50}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FF22A307-29AB-4744-B366-0ABE6B5FB516}
+	EndGlobalSection
+EndGlobal
