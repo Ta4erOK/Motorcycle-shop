@@ -2,7 +2,7 @@
 
 namespace MotorcycleShop.Domain.Interfaces
 {
-    public interface IRepository<T> where T : class      // T - это тип сущности (Motorcycle, Order и т.д.)
+    public interface IRepository<T> where T : class      // T - тип сущности (Motorcycle, Order и т.д.)
     {
         List<T> GetAll();
 
